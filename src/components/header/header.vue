@@ -29,7 +29,7 @@
        <div class="background">
        	 <img width="100%" height="100%" :src="seller.avatar">	
        </div>
-       <transition name="fade">
+        
            <div class="detail" v-show="detailShow">
    	    <div class="detail-wrapper clearfix">
    		<div class="detail-main">
@@ -251,14 +251,14 @@ export default {
 		height: 100%;
 		overflow: auto;
 		transition: all 0.5s;
-                     background: rgba(7,17,27,0.8);
+           background: rgba(7,17,27,0.8);
 		&.fade-enter-active, &.fade-leave-active {
-                              transition: opacity .5s;
-                              opacity: 1;
-                      }
-                      &.fade-enter, &.fade-leave-active {
-                          opacity: 0;
-                      }
+                 transition: opacity .5s;
+                 opacity: 1;
+                }
+           &.fade-enter, &.fade-leave-active {
+                opacity: 0;
+            }
 		.detail-wrapper {
                             min-height: 100%;
                             width: 100%;
