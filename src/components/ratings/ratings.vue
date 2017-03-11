@@ -228,7 +228,7 @@ export default {
 		.rating-item {
 			display: flex;
 			padding: 18px;
-			.border-1px(raba(7,17,27,0.1));
+			.border-1px(rgba(7,17,27,0.1));
 			.avatatr {
                                                 flex: 0 0 28px;
                                                 width: 28px;

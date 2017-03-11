@@ -19,4 +19,4 @@ new Vue({
 		App
 	}
 });
-router.push('ratings');
+router.push('seller');
